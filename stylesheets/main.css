@@ -184,6 +184,7 @@ a {
 }
 
 #welcome h4{
+  color: #515A5A;
   font-size: 80%;
   font-weight: bold;
   position: absolute;
@@ -261,6 +262,7 @@ a {
 }
 
 #portfolio h2{
+  color: #515A5A;
   padding: 30px 30px 30px 30px;
   font-size: 100%;
   font-weight: bold;
@@ -352,6 +354,7 @@ img:hover {
 }
 
 #contact h2{
+  color: #515A5A;
   font-size: 100%;
   font-weight: bold;
 }
