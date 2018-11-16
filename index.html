@@ -52,7 +52,7 @@
 			</div>
 		</nav>
 
-		<div class="container home">
+		<div class="container" id = "home">
 			<div class="row">
 				<div class="col-sm">
 					<h3>Hello,</h3>
@@ -71,6 +71,55 @@
 					<img src="images/home/jasmine_cropped.png" alt="Photo of Jasmine">
 				</div>
 			</div>
+		</div>
+
+		<div class="container" id = "art-portfolio">
+		</div>
+
+		<div class="container" id = "about">
+			<div class="row">
+				<div class="col-sm">
+					<img src="images/home/jasmine_2_cropped.png" alt="Photo of Jasmine">
+				</div>
+				<div class="col-sm">
+					<h1>About Me</h1>
+					<p>Hi there! My name is Jasmine. I'm a software engineer with a passion for design and an artist.</p>
+
+					<p>I have a very vast background in the field of computer science. In 2013, I graduated with a Bachelor of Science in Computer Engineering from the University of Colorado. Upon graduating, I worked at Western Digital as a firmware engineer for 4 years writing software for embedded devices and for test automation. I then attended University of , Riverside for a Master of Science in Computer Science from 2017-2018 in order to learn further expand my knowledge in different fields of computer science. During this time, I did research in the field of data science.</p>
+					<p>I've always had a passion for the arts but have lost sight in it when I started focusing on the sciences. In 2016, I rediscovered watercoloring and haven't stopped creating art in any medium since.</p>
+					<p>I only recently began to merge my two passions, technology and the arts, and am on a mission to utilize software to design visuals and interfaces that are beautiful.</p>
+					<h3>Languages: Python, HTML, CSS, Javascript, Matlab, C/C++</h3>
+					<h3>Design Tools: Affinity Design, Affinity Photo, Procreate, Watercolor, Pen & Paper</h3>
+					<h3>Frameworks: Bootstrap</h3>
+					<section class = "contact-links">
+						<h2>
+							<a href="https://www.linkedin.com/in/jasmine-jihyun-kim-73530235"><i class="fab fa-linkedin-in"></i></a>
+							<a href="https://github.com/jasminekim"><i class="fab fa-github"<i class="fab fa-github-square"></i></a>
+							<a href="https://www.instagram.com/hyuniebee/"><i class="fab fa-instagram"<i class="fab fa-github-square"></i></a>
+						</h2>
+					</section>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container" id = "contact">
+			<h1>Let's talk!</h1>
+
+			<!--The following was with help from: https://tosbourn.com/using-formspree-for-contact-form/-->
+			<form action="https://formspree.io/hyuniebee@gmail.com"
+			    method="POST">
+			  <h2>Name</h2>
+			  <input type="text" name="name" class ="input-text">
+			  <h2>E-mail</h2>
+			  <input type="email" name="_replyto" class ="input-text">
+			  <h2>Message</h2>
+			  <textarea name="comments" id="contact_comments" class ="input-text message" required></textarea>
+			  <br><input type="submit" value="Send" class ="btn send-btn">
+			</form>
+			<script>
+			    var contactform =  document.getElementById('contactform');
+			    contactform.setAttribute('action', '//formspree.io/' + 'hyuniebee' + '@' + 'gmail' + '.' + 'com');
+			</script>
 		</div>
 
 

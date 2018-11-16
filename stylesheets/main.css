@@ -81,11 +81,11 @@ body {
   ========================================
 */
 
-.home {
+#home {
   height: 100%;
 }
 
-.home h3{
+#home h3{
   margin-top: 20%;
   margin-left: 10%;
   font-size: 200%;
@@ -93,14 +93,14 @@ body {
   font-weight: bold;
 }
 
-.home h1{
+#home h1{
   font-size: 600%;
   font-weight: bold;
   line-height: 100%;
   text-align: center;
 }
 
-.home h4{
+#home h4{
   font-size: 80%;
   margin-left: 10%;
   margin-top: 10%;
@@ -108,7 +108,11 @@ body {
   color: #515A5A;
 }
 
-.home .btn{
+ #home img {
+    width:100%;
+}
+
+#home .btn{
   margin-left: 10%;
   margin-top: 5%;
   font-size: 200%;
@@ -117,27 +121,91 @@ body {
   border-radius: 10px;
 }
 
-.home .btn:hover{
+#home .btn:hover{
   border: 3px solid #515A5A;
   color: white;
   background-color: #515A5A;
 }
 
+/*
+  ========================================
+  About
+  ========================================
+*/
 
-.home .contact-links{
-  margin-left: 10%;
-  margin-top: 5%;
+ #about img {
+    width:100%;
+}
+
+#about h1{
   font-size: 200%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#about h2{
+  font-size: 150%;
+  text-align: right;
+  font-weight: bold;
+  text-align: right;
+}
+
+#about p{
+  font-size: 100%;
+  font-weight: bold;
   color: #515A5A;
 }
 
-.home .contact-links a{
-  margin-right:  10px;
+#about h3{
+  text-align: right;
   color: #515A5A;
- }
+  font-size: 70%;
+  font-weight: bold;
+}
 
- .home img {
-    width:100%;
+/*
+  ========================================
+  Contact Me
+  ========================================
+*/
+
+#contact {
+  height: 100%;
+}
+
+#contact h1{
+  font-size: 300%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#contact h2{
+  font-size: 100%;
+  font-weight: bold;
+}
+
+#contact .input-text{
+  width: 60%;
+  border: 2px solid #CCCCCC;
+  border-radius: 5px;
+}
+
+#contact .message{
+  height: 200px;
+}
+
+#contact .send-btn{
+  font-weight: bold;
+  font-size: 100%;
+  color: #515A5A;
+  border: 3px solid #515A5A;
+  border-radius: 10px;
+}
+
+#contact .send-btn:hover{
+  border: 3px solid #515A5A;
+  color: white;
+  background-color: #515A5A;
 }
 
 
@@ -147,8 +215,16 @@ body {
   ========================================
 */
 
-.btn{
+
+.contact-links{
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 200%;
   color: #515A5A;
 }
 
+.contact-links a{
+  margin-right:  10px;
+  color: #515A5A;
+ }
 
