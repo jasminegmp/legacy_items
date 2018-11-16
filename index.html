@@ -16,7 +16,7 @@
 
 
 		<!--Docs: https://getbootstrap.com/docs/4.0/components/navbar/-->
-		<nav class="navbar navbar-expand-lg navbar-light primary-nav">
+		<nav class="navbar navbar-expand-lg navbar-light primary-nav fixed-top">
 
 			<!--Sandwich collapsing-->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,17 +29,9 @@
 						<a class="nav-link" href="#top">Home</a>
 					</li>
 
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#art-portfolio" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Portfolio
-						</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#art-portfolio">Art</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#web-portfolio">Projects</a>
-						</div>
+					<li class="nav-item active">
+						<a class="nav-link" href="#artportfolio">Portfolio</a>
 					</li>
-
 					<li class="nav-item">
 						<a class="nav-link" href="#about">About</a>
 					</li>
@@ -68,20 +60,60 @@
 					</section>
 				</div>
 				<div class="col-sm">
-					<img src="images/home/jasmine_cropped.png" alt="Photo of Jasmine">
+					<img src="images/home/jasmine_cropped_low.jpg" alt="Photo of Jasmine">
 				</div>
 			</div>
 		</div>
 
-		<div class="container" id = "art-portfolio">
+		<div class="container" id = "artportfolio">
+			<h1>Arts</h1>
+			<a target="_blank" href="images/portfolio/buggy.jpg">
+				<img src="images/portfolio/buggy.jpg" class="img-thumbnail rounded-circle" alt="My cat">
+			</a>
+			<a target="_blank" href="images/portfolio/crystal_island.jpg">
+				<img src="images/portfolio/crystal_island.jpg" class="img-thumbnail rounded-circle" alt="Crystal island">
+			</a>
+			<a target="_blank" href="images/portfolio/pond.jpg">
+				<img src="images/portfolio/pond.jpg" class="img-thumbnail rounded-circle" alt="Pond">
+			</a>
+			<a target="_blank" href="images/portfolio/geometric_mountain.jpg">
+				<img src="images/portfolio/geometric_mountain.jpg" class="img-thumbnail rounded-circle" alt="Geometric mountain">
+			</a>
+			<a target="_blank" href="images/portfolio/self_portrait.jpg">
+				<img src="images/portfolio/self_portrait.jpg" class="img-thumbnail rounded-circle" alt="Self portrait">
+			</a>
+			<a target="_blank" href="images/portfolio/village.jpg">
+				<img src="images/portfolio/village.jpg" class="img-thumbnail rounded-circle" alt="Village">
+			</a>
+			<a target="_blank" href="images/portfolio/village_2.jpg">
+				<img src="images/portfolio/village_2.jpg" class="img-thumbnail rounded-circle" alt="Village">
+			</a>
+			<a target="_blank" href="images/portfolio/kitties.jpg">
+				<img src="images/portfolio/kitties.jpg" class="img-thumbnail rounded-circle" alt="Kitties">
+			</a>
+			<a target="_blank" href="images/portfolio/frida_kahlo.jpg">
+				<img src="images/portfolio/frida_kahlo.jpg" class="img-thumbnail rounded-circle" alt="Frida Kahlo">
+			</a>
+
+			<a target="_blank" href="images/portfolio/crystal_skies.jpg">
+				<img src="images/portfolio/crystal_skies.jpg" class="img-thumbnail rounded-circle" alt="Crystal skies">
+			</a>
+			<a target="_blank" href="images/portfolio/workout_data.jpg">
+				<img src="images/portfolio/workout_data.jpg" class="img-thumbnail rounded-circle" alt="Workout data">
+			</a>
+		</div>
+
+		<div class = "container" id = "webportfolio">	
+				<h1>Projects</h1>	
+				<h2>Under construction, stay tuned.</h2>
 		</div>
 
 		<div class="container" id = "about">
 			<div class="row">
-				<div class="col-sm">
-					<img src="images/home/jasmine_2_cropped.png" alt="Photo of Jasmine">
+				<div class="col-4">
+					<img src="images/home/jasmine_2_cropped_low.jpg" alt="Photo of Jasmine">
 				</div>
-				<div class="col-sm">
+				<div class="col">
 					<h1>About Me</h1>
 					<p>Hi there! My name is Jasmine. I'm a software engineer with a passion for design and an artist.</p>
 

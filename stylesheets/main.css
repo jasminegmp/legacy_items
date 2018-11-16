@@ -66,7 +66,8 @@ body {
 */
 
 .primary-nav, .dropdown-item {
-  background-color: none;
+  height: 4%;
+  background-color: #FFFFFF;
   font-size: 80%;
   font-weight: 400;
   letter-spacing: .5px;
@@ -83,6 +84,7 @@ body {
 
 #home {
   height: 100%;
+  margin-bottom: 5%;
 }
 
 #home h3{
@@ -109,7 +111,9 @@ body {
 }
 
  #home img {
+  margin-top: 5%;
     width:100%;
+    border-radius: 10px;
 }
 
 #home .btn{
@@ -129,12 +133,80 @@ body {
 
 /*
   ========================================
+  Art Portfolio
+  ========================================
+*/
+
+#artportfolio {
+  margin-bottom: 10%;
+  padding-top: 3%;
+}
+
+#artportfolio h1{
+  text-transform: uppercase;
+  font-size: 300%;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+#artportfolio h2{
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.img-thumbnail{
+  position: relative;
+  margin-top: 10px;
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+  margin: 5px 5px 5px 10px;
+}
+
+/* Add a hover effect (blue shadow) */
+#artportfolio img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/*
+  ========================================
+  Web Portfolio
+  ========================================
+*/
+
+#webportfolio h1{
+  text-transform: uppercase;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+#webportfolio h2{
+  font-size: 100%;
+  font-weight: bold;
+}
+
+#webportfolio{
+  height: 100%;
+  margin-bottom: 15%;
+  padding-top: 3%;
+}
+
+/*
+  ========================================
   About
   ========================================
 */
 
+#about {
+  height: 100%;
+  margin-bottom: 5%;
+  padding-top: 3%;
+}
+
  #about img {
     width:100%;
+    margin-top: 30%;
+    border-radius: 10px;
 }
 
 #about h1{
@@ -170,7 +242,10 @@ body {
 */
 
 #contact {
+  padding-top: 3%;
   height: 100%;
+  margin-top: 15%;
+  margin-bottom: 5%;
 }
 
 #contact h1{
