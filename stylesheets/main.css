@@ -46,44 +46,6 @@ table {
   border-spacing: 0;
 }
 
-/*
-  ========================================
-  Background Class
-  ========================================
-*/
-html {
-  background-color: #FFF;
-}
-
-/*
-  ========================================
-  For Parallax and rows/columns
-  ========================================
-*/
-.parallax {
-    height: 100%; 
-}
-
-.parallax .right{
-  background-image: url('../images/home/jasmine.png');
-  background-attachment: fixed;
-  background-position: 550px -600px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-body, html{
-  height: 100%;
-}
-
-.row {
-    display: flex;
-    height: 100%;
-}
-
-.column {
-    flex: 50%;
-}
-
 
 /*
   ========================================
@@ -93,289 +55,100 @@ body, html{
 
 body {
   font: 300 16px/22px "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #000;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-
-
-/*
-  ========================================
-  Links
-  ========================================
-*/
-a:hover {
-  color: #688;
-}
-a {
-  color: #515A5A;
-  text-decoration:  none;
-}
-
-.teaser a:hover h2 {
-  color: #688;
+  color: #9B8682;
 }
 
 
 /*
   ========================================
-  Navigation and Header
+  Navigation
   ========================================
 */
-.header {
+
+.primary-nav, .dropdown-item {
   background-color: none;
-  width: 100%;
-  height: 30px;
-  position: fixed;
-  margin-top: 0;
-  color: #515A5A;
-}
-
-.primary-nav {
   font-size: 80%;
   font-weight: 400;
   letter-spacing: .5px;
-  padding: 0px 10px 0 75px;
   text-transform: uppercase;;
   font-weight: bold;
 }
 
-.nav {
-  text-align: right;
-}
-
-.nav li {
-  display: inline-block;
-  margin: 5px 10px;
-  vertical-align: top;
-}
 
 /*
   ========================================
-  Welcome
+  Home
   ========================================
 */
 
-#welcome {
-  min-height: 800px;
+.home {
   height: 100%;
-  min-width: 1100px;
 }
 
-#welcome h3{
+.home h3{
+  margin-top: 20%;
+  margin-left: 10%;
   font-size: 200%;
   text-transform: uppercase;
   font-weight: bold;
-  position: absolute;
-  top: 100px;
-  left: 100px;
 }
 
-#welcome h1{
+.home h1{
   font-size: 600%;
   font-weight: bold;
   line-height: 100%;
-  position: absolute;
-  left: 100px;
-  top: 125px;
   text-align: center;
 }
 
-#welcome h4{
-  color: #515A5A;
+.home h4{
   font-size: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
   font-weight: bold;
-  position: absolute;
-  top: 350px;
-  left: 100px;
+  color: #515A5A;
 }
 
-#welcome .btn{
-  position: absolute;
-  top: 450px;
-  left: 100px;
-}
-
-#welcome .contact-links{
-  display: inline-block;
+.home .btn{
+  margin-left: 10%;
+  margin-top: 5%;
   font-size: 200%;
-  position: absolute;
-  top: 525px;
-  left: 100px;
+  color: #515A5A;
+  border: 3px solid #515A5A;
+  border-radius: 10px;
 }
 
-#welcome .contact-links a{
+.home .btn:hover{
+  border: 3px solid #515A5A;
+  color: white;
+  background-color: #515A5A;
+}
+
+
+.home .contact-links{
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 200%;
+  color: #515A5A;
+}
+
+.home .contact-links a{
   margin-right:  10px;
+  color: #515A5A;
  }
+
+ .home img {
+    width:100%;
+}
+
 
 /*
   ========================================
   Button
   ========================================
 */
+
 .btn{
-  text-align: center;
-  font-size: 100%;
-  width: 120px;
-  border: 2px solid #515A5A;;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.btn:hover {
-  border: 2px solid #688;
-  
-}
-
-/*
-  ========================================
-  Portfolio
-  ========================================
-*/
-#portfolio{
-  height: 800px;
-  min-height: 100%;
-  min-width: 1100px;
-  background-color: #FFF;
-  font-size: 100%;
-}
-
-#portfolio .arts{
-  background-color: #FFF;
-  text-align: center;
-}
-
-#portfolio .cs{
-  background-color: #FFF;
-}
-
-#portfolio h1{
-  text-align: left;
-  padding: 30px 30px 30px 30px;
-  text-transform: uppercase;
-  font-size: 300%;
-  font-weight: bold;
-}
-
-#portfolio h2{
   color: #515A5A;
-  padding: 30px 30px 30px 30px;
-  font-size: 100%;
-  font-weight: bold;
 }
 
-.img-thumbnail{
-  position: relative;
-  margin-top: 10px;
-  border-radius: 50%;
-  padding: 5px;
-  width: 150px;
-  margin: 5px 5px 5px 10px;
-}
 
-/* Add a hover effect (blue shadow) */
-img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-/*
-  ========================================
-  About
-  ========================================
-*/
-#about {
-  min-height: 800px;
-  height: 100%;
-  min-width: 1100px;
-}
-
-#about h1{
-  font-size: 200%;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 50px 20px 10px 30px;
-}
-
-#about h2{
-  color: #515A5A;
-  font-size: 150%;
-  text-align: right;
-  font-weight: bold;
-  text-align: right;
-  margin-top: 10px;
-  margin-right: 10px;
-}
-
-#about p{
-  color: #515A5A;
-  font-size: 90%;
-  padding: 10px 20px 0px 30px;
-  font-weight: bold;
-}
-
-#about h3{
-  color: #515A5A;
-  text-align: right;
-  font-size: 70%;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-right: 10px;
-}
-/*
-
-#abou
-  ========================================
-  Contact Me
-  ========================================
-*/
-#contact{
-  height: 100%;
-  background-color: #FFF;
-  font-size: 100%;
-}
-
-#contact h1{
-  font-size: 300%;
-  text-transform: uppercase;
-  font-weight: bold;
-  position: relative;
-  left: 100px;
-  top: 150px;
-}
-
-#contact form{
-  position: relative;
-  left: 100px;
-  top: 175px;
-}
-
-#contact h2{
-  color: #515A5A;
-  font-size: 100%;
-  font-weight: bold;
-}
-
-#contact .input-text{
-  width: 50%;
-  border: 2px solid #E5E8E8;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-#contact .message{
-  height: 200px;
-}
-
-.send-btn{
-  margin-top: 25px;
-  background-color: #FFF;
-  color: #515A5A;;
-}
-
-.send-btn:hover { 
-  color: #688;
-}
